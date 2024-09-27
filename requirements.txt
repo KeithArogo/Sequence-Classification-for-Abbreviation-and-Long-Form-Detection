@@ -1,0 +1,11 @@
+datasets
+transformers
+spacy
+torch
+spacy-transformers
+transformers[torch]
+seqeval
+scikit-learn
+seaborn
+matplotlib
+numpy
