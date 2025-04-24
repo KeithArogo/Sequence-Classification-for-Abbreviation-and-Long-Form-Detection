@@ -1,31 +1,38 @@
-# 1 Introduction
+This project demonstrates a complete machine learning pipeline, from data preprocessing to model optimization. It explores:
 
-This submission investigates:
+*   Data Preprocessing: Cleaning, transforming, and preparing data.
+*   Model Exploration: Evaluating diverse machine learning algorithms.
+*   Hyperparameter Optimization: Tuning model parameters systematically.
+*   Training Strategies: Comparing fine-tuning and full training approaches.
 
-1. Data Pre-processing Techniques: Analysis of different methods to clean, transform, and prepare data for modeling.
-2. Different Models/Algorithms: Exploration of various machine learning models and algorithms to address the problem.
-3. Hyperparameter Optimization: Techniques for optimizing model hyperparameters for better performance.
-4. Fine-tuning vs Full Training: Comparison between fine-tuning pre-trained models and training models from scratch.
+**Requirements:**
 
-# Requirements
-To run the experiments and analysis, you need to install the following dependencies:
+*   Python 3.7+
+*   Dependencies: PyTorch (torch), Transformers, spaCy & spacy-transformers, scikit-learn, NumPy, datasets, seqeval.
 
-- datasets: A library for loading and working with datasets in various formats.
-- transformers: A library for state-of-the-art natural language processing models, transformers, and tokenizers.
-- spacy: A library for advanced natural language processing tasks.
-- torch: A deep learning library used for building and training neural networks.
-- spacy-transformers: A library that allows spaCy to work with transformer models.
-- seqeval: A library for evaluating sequence tagging models.
-- scikit-learn: The scikit-learn library, used for machine learning and data analysis.
-- numpy: A numerical computing library for working with arrays and mathematical operations.
+**Installation:**
 
-You can install these dependencies using the following command:
-*pip install -r requirements.txt*
+```bash
+pip install -r requirements.txt
+```
 
+A virtual environment is recommended.
 
-# Functions
-The functions are contained in utilities.py and cover a range of tasks such as data processing and evaluation.
+**Project Structure:**
 
-# Running the experiments/analysis
-1. Data Preparation: Run Data Preparation.ipynb to format the dataset and integrate it into your Google Drive.
-2. Running Experiments: Once data preparation is complete, you can run the experiments. Refer to individual experiment notebooks for instructions.
+`utilities.py`: Contains core functions for data processing, model evaluation, and general utilities.
+
+**Getting Started:**
+
+1.  **Data Preparation:** Run `Data Preparation.ipynb` to format, preprocess, and generate processed data files. This notebook also handles Google Drive integration (if needed).
+
+2.  **Experiments:** Individual notebooks detail each experimental phase:
+
+    *   Baseline Models: Traditional machine learning.
+    *   Neural Architectures: Deep learning implementations.
+    *   Hyperparameter Tuning: Optimization experiments.
+    *   Comparative Analysis: Fine-tuning vs. full training.
+
+**Contributing:**
+
+Report bugs or request features by opening an issue. Pull requests are welcome.
