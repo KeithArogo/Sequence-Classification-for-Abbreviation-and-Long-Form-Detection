@@ -1,16 +1,28 @@
-This project demonstrates a complete machine learning pipeline, from data preprocessing to model optimization. It explores:
+# Machine Learning Pipeline: From Data Processing to Model Optimization
 
-*   Data Preprocessing: Cleaning, transforming, and preparing data.
-*   Model Exploration: Evaluating diverse machine learning algorithms.
-*   Hyperparameter Optimization: Tuning model parameters systematically.
-*   Training Strategies: Comparing fine-tuning and full training approaches.
+## Introduction
 
-**Requirements:**
+This project provides a comprehensive exploration of modern machine learning techniques, covering the entire pipeline from data preparation to model optimization. Key focus areas include:
 
-*   Python 3.7+
-*   Dependencies: PyTorch (torch), Transformers, spaCy & spacy-transformers, scikit-learn, NumPy, datasets, seqeval.
+1. **Data Pre-processing Techniques** - Analysis of methods for cleaning, transforming, and preparing data for modeling
+2. **Model Exploration** - Evaluation of various machine learning algorithms and architectures
+3. **Hyperparameter Optimization** - Systematic approaches for tuning model parameters
+4. **Training Strategies** - Comparative analysis of fine-tuning vs full training approaches
 
-**Installation:**
+## Requirements
+
+### Core Dependencies
+
+- Python 3.7+
+- PyTorch (torch) - For deep learning model implementation
+- Transformers - State-of-the-art NLP models and tokenizers
+- spaCy + spacy-transformers - Advanced NLP processing
+- scikit-learn - Traditional machine learning algorithms
+- NumPy - Numerical computing
+- datasets - Dataset loading and processing
+- seqeval - Sequence labeling evaluation
+
+### Installation
 
 ```bash
 pip install -r requirements.txt
